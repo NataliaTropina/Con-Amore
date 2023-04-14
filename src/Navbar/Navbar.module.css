@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1530px;
+    height: 250px;
+    background: url(../images/herz-hände.jpg) no-repeat;
+    background-size:cover;
+    background-position:center; 
+
+}
+
+.btnBox {
+    margin-top: 0px;
+    width: 1530px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+.titleBox {
+    margin-top: 60px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1 {
+    margin: 5px;
+    color: rgb(221, 49, 49);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 45px;
+}
+.h2 {
+    margin: 5px;
+    color: rgb(221, 49, 49);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.navbarBtn {
+    margin-top: 30px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbarBtn:hover {
+    text-decoration: underline ;
+    color: brown;
+    transition: 1s;
+}
+

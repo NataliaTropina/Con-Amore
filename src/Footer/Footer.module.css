@@ -1,0 +1,29 @@
+.footerBigBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1530px;
+    height: 300px;
+    margin-bottom: 0px;
+    background-color: rgb(206,200,122);
+}
+
+.footerSmallBox1 {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+}
+
+.map {
+    margin: 40px;
+    width: 400px; 
+    height: 200px; 
+    border:0px;
+ }
+
+ .footerSmallBox2 {
+    margin: 40px;
+    width: 400px; 
+    height: 200px;
+ }

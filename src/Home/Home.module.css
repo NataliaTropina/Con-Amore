@@ -1,0 +1,52 @@
+.homeBigBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1530px;
+    height: 950px;
+    background: url(../images/oboi-serdechki.jpg) no-repeat;
+    background-size:cover;
+    background-position:center; 
+
+}
+
+.homeSmallBox {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 700px;
+    background-color: bisque;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.textBox1 {
+    margin: 40px;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.textBox2 {
+    font-size: 23px;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+
+}
+
+.heading {
+    color: brown;
+    text-decoration: underline;
+
+}
+
+.textBox3 {
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+}
+
