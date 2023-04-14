@@ -1,5 +1,6 @@
 {
   "name": "con-amore",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,10 +36,10 @@
       "airbnb-typescript"
     ],
     "rules": {
-        "linebreak-style": [
-          "error",
-          "windows"
-        ],
+      "linebreak-style": [
+        "error",
+        "windows"
+      ],
       "import/no-extraneous-dependencies": "off",
       "react/jsx-indent": 0,
       "implicit-arrow-linebreak": 0,
@@ -84,6 +87,7 @@
   },
   "devDependencies": {
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^17.0.0"
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "gh-pages": "^5.0.0"
   }
 }
